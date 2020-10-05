@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty API</title>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="header position-relative">
+        <header class="bg-dark text-light text-center">
+            <h1>
+                Personajes Rick and Morty por @aftaverar
+            </h1>            
+        </header>
+    </div>
+<!--===paginacion===-->
+    <ul id="paginacion" class="pagination justify-content-center"></ul>
+    <!--===contenido de personajes===-->
+
+    <div class="container position-relative"><!--para poder poner divs con position absolute abajo-->
+        <div id="datosPersonajes" class="row position-absolute"><!--para que las cosas que den en fila y suban y bajen de acuer a como se pida-->
+                        
+        </div>
+    </div>
+
+
+<!--===este es el orden que requiere para que funcione===-->  
+<script src="js/jquery-3.5.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<script src="js/getData.js"></script>
+</body>
+</html>

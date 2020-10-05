@@ -1,0 +1,18 @@
+/*No se pone el '*'porque se va a usar bootstrap,
+se usa * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+si hay mucho codigo en estilos o exclusivamente estilos hecho por nosotros*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+}
+
